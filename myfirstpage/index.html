@@ -4,34 +4,112 @@
 	<head>
 		<title> My first page</title>
 		<meta charset="utf-8"> 
+		<!--- <link rel="stylesheet" type="text/css" href="nozmilize.css">  ДЕ ВІН? -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<header>
-			<div>
+		<header class="header">
+			<div class="container">
 			<h1> Main header</h1>
 			<br>
 			<h2> <small> Subheader small </small></h2>
 			</div>
 		</header>
 		<!-- -->
-		<nav>
+		<nav class="page-navigation">
 			<div>
 				<ul>
-					<li><a href = "#"> Home </a></li>
-					<li><a href = "#"> About </a></li>
-					<li><a href = "#"> Contact </a></li>
+					<li><a href="#"> Home </a></li>
+					<li><a href="#"> About </a></li>
+					<li><a href="#"> Contact </a></li>
 				</ul>
 				<!-- Login form-->
-				<form action="#">
+				<form action="#" class="Login">
 					<input type ="text" placeholder = "Login" required>
 					<input type ="password" placeholder = "Password" required>
 					<input type ="submit" value = "Sign in" required>
 			</div>
 		</nav>
 		<!-- -->
-		<main></main>
+		<main>
+			<div class="container">
+				<h2 class="collection-title">Image collection <small> Vizualize Quality</small></h2>
+				<div class="collections">
+					<div class="collection-item-outer">
+						<div class="collection-item">
+							<img src="images/mountains.jpeg" alt="picture">
+							<div class="collection-text">
+								<h3>List element item</h3>
+								<p>some text</p>
+								<button>Read more...</button>
+							</div>
+						</div>
+					</div>
+					<div class="collection-item-outer">
+						<div class="collection-item">
+							<img src="images/mountains.jpeg" alt="picture" ">
+							<div class="collection-text">
+								<h3>List element item</h3>
+								<p>some text</p>
+								<button>Read more...</button>
+							</div>
+						</div>
+					</div>
+					<div class="collection-item-outer">
+						<div class="collection-item">
+							<img src="images/mountains.jpeg" alt="picture">
+							<div class="collection-text">
+								<h3>List element item</h3>
+								<p>some text</p>
+								<button>Read more...</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<h2 class="collection-title">Video collection <small> Vizualize Quality</small></h2>
+				<div class="collections">
+					<div class="collection-item-outer">
+						<div class="collection-item">
+							<img src="video/1.mp4" alt="video">
+							<div class="collection-text">
+								<h3>List element item</h3>
+								<p>some text</p>
+								<button>Read more...</button>
+							</div>
+						</div>
+					</div>
+					<div class="collection-item-outer">
+						<div class="collection-item">
+							<img src="video/1.mp4" alt="video">
+							<div class="collection-text">
+								<h3>List element item</h3>
+								<p>some text</p>
+								<button>Read more...</button>
+							</div>
+						</div>
+					</div>
+					<div class="collection-item-outer">
+						<div class="collection-item">
+							<img src="video/1.mp4" alt="video">
+							<div class="collection-text">
+								<h3>List element item</h3>
+								<p>some text</p>
+								<button>Read more...</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
 		<!-- -->
-		<footer></footer>
+		<footer class="footer">
+			<div class="container">
+				<p> Made by Anna V.</p>
+			</div>
+		</footer>
 		<!-- -->
 	</body>
 </html>
