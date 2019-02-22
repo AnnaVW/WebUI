@@ -1,0 +1,9 @@
+#select_by_id {
+  font-weight: bold;
+}
+.select_by_class{
+  text-decoration: underline;
+}
+p{
+  text-align: right;
+  }
